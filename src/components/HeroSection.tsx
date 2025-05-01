@@ -1,8 +1,8 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import CTAButton from './CTAButton';
 import { Gauge, Shield, Clock } from 'lucide-react';
-
+import carroImage from '../assets/carro.jpg'
 const HeroSection = () => {
   return (
     <section className="pt-24 md:pt-32 pb-16 md:pb-24 bg-gradient-to-br from-[#1B263B] to-[#0D1B2A] text-white overflow-hidden relative">
@@ -74,7 +74,7 @@ const HeroSection = () => {
           >
             <div className="relative">
               <img 
-                src="https://blog.pneustore.com.br/wp-content/uploads/2022/10/TROCA-DE-OLEO-BLOG-PNEUSTORE-2.png" 
+                src={carroImage} 
                 alt="Troca de óleo profissional"
                 className="rounded-lg shadow-2xl transform -rotate-2 hover:rotate-0 transition-transform duration-500"
               />

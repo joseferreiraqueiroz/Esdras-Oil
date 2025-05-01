@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X, Clock } from 'lucide-react';
 import CTAButton from './CTAButton';
-
+import Logo from '../assets/logo.PNG'
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +27,9 @@ const Header = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <div className="text-white font-bold text-xl md:text-2xl">Esdras Oil</div>
+          <div className="text-white font-bold text-xl md:text-2xl flex items-center gap-4">
+            <img src={Logo} alt="" className='w-[200px] h-[70px]'/>
+          </div>
           
           <div className="hidden md:flex items-center text-white text-sm">
             <Clock size={16} className="mr-2" />

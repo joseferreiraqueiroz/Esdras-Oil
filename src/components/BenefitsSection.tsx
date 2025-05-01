@@ -115,7 +115,7 @@ const BenefitsSection = () => {
           <div className="bg-gradient-to-r from-[#1B263B] to-[#2d3e5e] p-8 rounded-2xl shadow-xl max-w-3xl mx-auto flex flex-col items-center">
             <p className="text-lg mb-6 text-white">
               Agende agora e tenha seu câmbio protegido com o serviço que já atendeu 
-              mais de <span className="text-[#FF6B00] font-bold">5.000 clientes satisfeitos</span> em todo o Brasil.
+              mais de <span className="text-[#FF6B00] font-bold">5.000 clientes satisfeitos</span> na região de Barueri.
             </p>
             <CTAButton />
           </div>

@@ -1,5 +1,5 @@
-import React from 'react';
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Youtube } from 'lucide-react';
+
+import { MapPin, Phone, Clock, Facebook, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -12,17 +12,7 @@ const Footer = () => {
               Especialistas em transmissão automática com mais de 10 anos de experiência.
               Nosso compromisso é oferecer o melhor serviço com transparência e qualidade.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-[#FF6B00] transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="hover:text-[#FF6B00] transition-colors">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="hover:text-[#FF6B00] transition-colors">
-                <Youtube size={20} />
-              </a>
-            </div>
+         
           </div>
           
           <div>
@@ -47,17 +37,17 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-white">Serviços</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Troca de Óleo de Câmbio</a></li>
-              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Diagnóstico de Transmissão</a></li>
-              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Reparo de Câmbio Automático</a></li>
-              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Manutenção Preventiva</a></li>
-              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Instalação de Radiador de Câmbio</a></li>
+              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Troca de Óleo de motor e filtros</a></li>
+              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Troca de óleo de câmbio automático</a></li>
+              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Troca de óleo de diferencial</a></li>
+           
+
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 pt-6 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} AutoTrans - Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} EsdrasOil - Todos os direitos reservados.</p>
           <p className="mt-2">
             <a href="#" className="hover:text-[#FF6B00] transition-colors">Política de Privacidade</a>
             {' | '}
